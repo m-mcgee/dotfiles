@@ -1,4 +1,4 @@
 name: dotfiles
-root: ~/Code/github.com/voodooGQ/dotfiles
+root: ~/Code/github.com/m-mcgee/dotfiles
 windows:
   - editor: code .

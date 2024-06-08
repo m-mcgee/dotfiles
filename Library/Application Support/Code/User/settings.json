@@ -58,8 +58,8 @@
       "**/runway.yaml",
       "**/runway.yml"
     ],
-    "file:///home/shane/.vscode/extensions/atlassian.atlascode-2.4.9/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml",
-    "file:///home/ssmith/.vscode/extensions/itprokyle.vscode-runway-0.1.0/schemas/runway.schema.json": [
+    "file:///home/matt.mcgee/.vscode/extensions/atlassian.atlascode-2.4.9/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml",
+    "file:///home/matt.mcgee/.vscode/extensions/itprokyle.vscode-runway-0.1.0/schemas/runway.schema.json": [
       "**/runway.yaml",
       "**/runway.yml"
     ]
@@ -188,10 +188,8 @@
     "rearchitecting",
     "recurse",
     "serializer",
-    "shaneallensmith",
     "signin",
     "slsw",
-    "ssmith",
     "staticsite",
     "stepfunctions",
     "thisisfine",
@@ -199,7 +197,7 @@
     "tslib",
     "unmarshall",
     "verifiedpermissions",
-    "voodooGQ",
+    "m-mcgee",
     "whichenv",
     "yamllint"
   ],

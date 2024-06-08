@@ -1,13 +1,36 @@
 #!/bin/zsh
+# Clone all the repositories I need to work with or setup my environment
 
 echo "Cloning repositories..."
 
 ROOT=$HOME
 CODE=$ROOT/Code
-PERSONAL=$CODE/github.com/voodooGQ
+PERSONAL=$CODE/github.com/m-mcgee
+KAJABI=$CODE/github.com/Kajabi
+
+function clone() {
+  echo "Cloning $1 into $2..."
+  if [ -d $2 ]; then
+    echo "Directory $2 already exists. Skipping..."
+    return
+  fi
+  mkdir -p $2
+  git clone git@github.com:$1 $2
+}
 
 # System
-git clone git@github.com:tmux-plugins/tpm $HOME/.tmux/plugins/tpm
+clone tmux-plugins/tpm $HOME/.tmux/plugins/tpm
+
+# ZSH
+clone CurryEleison/zsh-asdf-prompt $ZSH_CUSTOM/plugins/zsh-asdf-prompt
+clone chrissicool/zsh-256color $ZSH_CUSTOM/plugins/zsh-256color
+clone Licheam/zsh-ask $ZSH_CUSTOM/plugins/zsh-ask
+clone redxtech/zsh-asdf-direnv $ZSH_CUSTOM/plugins/zsh-asdf-direnv
 
 # Personal
-git clone git@github.com:voodooGQ/dotfiles.git $PERSONAL/dotfiles
+clone voodooGQ/dotfiles $PERSONAL/dotfiles
+
+# Kajabi
+clone Kajabi/kajabi-products $KAJABI/kajabi-products
+clone Kajabi/kjctl $KAJABI/kjctl
+clone Kajabi/payment-service $KAJABI/payment-service

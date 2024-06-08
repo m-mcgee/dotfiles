@@ -11,7 +11,6 @@ tap 'stripe/stripe-cli'
 brew 'argocd' # ArgoCD
 brew 'asdf' # Version manager
 brew 'awscli' # AWS CLI
-brew 'bat' # Cat with wings
 brew 'coreutils' # macOS are outdated
 brew 'curl' # Curl
 brew 'diff-so-fancy' # Better diff
@@ -19,10 +18,7 @@ brew 'direnv' # Environment switcher
 brew 'eza' # Ls with colors
 brew 'git' # Git
 brew 'git-delta' # Better diff for git
-brew 'golang' # Go
-brew 'htop' # Better top
 brew 'jq' # JSON processor
-brew 'kustomize' # Kustomize
 brew 'mas' # Mac App Store CLI
 brew 'mcfly' # Better history
 brew 'minikube' # Minikube
@@ -97,7 +93,6 @@ cask 'homebrew/cask-fonts/font-fontawesome' # Font Awesome
 
 # Apps
 cask '1password' unless system ".local/bin/installed '1Password Installer.app'" # 1Password
-cask 'adobe-creative-cloud' unless system ".local/bin/installed 'Creative Cloud.app'" # Adobe Creative Cloud
 cask 'aws-vpn-client' unless system ".local/bin/installed 'AWS VPN Client.app'" # AWS VPN
 cask 'brave-browser' unless system ".local/bin/installed 'Brave Browser.app'" # Brave Browser
 cask 'caffeine' unless system ".local/bin/installed Caffeine.app" # Caffeine
@@ -109,13 +104,11 @@ cask 'github' unless system ".local/bin/installed 'GitHub Desktop.app'" # Github
 cask 'imageoptim' unless system ".local/bin/installed ImageOptim.app" # Optimize images # Rest client
 cask 'iterm2' unless system ".local/bin/installed iTerm2.app" # iTerm2
 cask 'numi' unless system ".local/bin/installed 'Numi.app'" # Calculator
-cask 'plex' unless system ".local/bin/installed Plex.app" # Plex
 cask 'slack' unless system ".local/bin/installed Slack.app" # Slack
 cask 'spotify' unless system ".local/bin/installed Spotify.app" # Spotify
 cask 'the-unarchiver' unless system ".local/bin/installed 'The Unarchiver.app'" # Unarchiver
 cask 'visual-studio-code' unless system ".local/bin/installed 'Visual Studio Code.app'" # VSCode
 cask 'zoom' unless system ".local/bin/installed 'zoom.us.app'" # Zoom
-cask 'wireshark' unless system ".local/bin/installed Wireshark.app" # Wireshark
 
 # Mac Apple Store
 # https://github.com/mas-cli/mas/issues/498
@@ -133,7 +126,6 @@ mas  "Noizio - Calm, Meditate, Sleep", id: 928871589 # White Noise
 vscode 'deerawan.vscode-dash' # Dash
 vscode 'github.copilot' # Copilot
 vscode 'github.copilot-chat' # Copilot chat
-vscode 'golang.go' # Go
 vscode 'johnpapa.vscode-peacock' # Peacock
 vscode 'yoavbls.pretty-ts-errors' # Pretty TS errors
 vscode 'ivhernandez.vscode-plist' # PList Editor

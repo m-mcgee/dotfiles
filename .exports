@@ -1,4 +1,4 @@
-export SYSTEM_NAME="smitty"
+export SYSTEM_NAME="m-mcgee"
 export AWS_REGION=us-east-1
 export BASE16_SHELL=$HOME/.config/base16-shell/
 export BROWSER=brave
