@@ -28,7 +28,7 @@ clone Licheam/zsh-ask $ZSH_CUSTOM/plugins/zsh-ask
 clone redxtech/zsh-asdf-direnv $ZSH_CUSTOM/plugins/zsh-asdf-direnv
 
 # Personal
-clone voodooGQ/dotfiles $PERSONAL/dotfiles
+clone m-mcgee/dotfiles $PERSONAL/dotfiles
 
 # Kajabi
 clone Kajabi/kajabi-products $KAJABI/kajabi-products
